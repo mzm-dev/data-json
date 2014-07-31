@@ -2,6 +2,7 @@ CakePHP JSON AND REST
 =====================
 Database
 --------
+<code>
 --
 -- Database: `jsonstates`
 --
@@ -41,7 +42,7 @@ INSERT INTO `states` (`id`, `name`, `created`, `updated`) VALUES
 (14, 'Wilayah Persekutuan Kuala Lumpur', NULL, NULL),
 (15, 'Wilayah Persekutuan Labuan', NULL, NULL),
 (16, 'Wilayah Persekutuan Putrajaya', NULL, NULL);
-
+</code>
 Reference
 ----------
 <ol>
