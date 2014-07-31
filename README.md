@@ -76,6 +76,10 @@ INSERT INTO `states` (`id`, `name`) VALUES
 (16, 'Wilayah Persekutuan Putrajaya');
 
 ```
+Required
+----------
+Cakephp 2.x
+
 Reference
 ----------
 <ol>
