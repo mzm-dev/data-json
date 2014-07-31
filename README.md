@@ -31,7 +31,10 @@ class StatesController extends AppController {
 3. Create model State.php
    Write like normally
 
-4. Test http://<server>/<project>/states.json
+4. Test 
+
+* http://server/project/states.json
+* http://server/project/states/data.json
 
 
 Database
