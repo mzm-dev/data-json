@@ -3,7 +3,7 @@ CakePHP JSON AND REST
 Basic Setup
 -----------
 
-1. Create mapResources
+**Create mapResources**
 
 ```php
 //In app/Config/routes.php...
@@ -12,7 +12,7 @@ Router::mapResources('states'); //table
 Router::parseExtensions('json'); //extention eg. json, xml
 ```
 
-2. Create Statement StatesController.php
+**Create Statement StatesController.php**
 
 ```php
 // Controller/StatesController.php
@@ -28,10 +28,10 @@ class StatesController extends AppController {
         ));
     }
 ```
-3. Create model State.php
+**Create model State.php**
    Write like normally
 
-4. Test 
+**Test** 
 
 * http://server/project/states.json
 * http://server/project/states/data.json
