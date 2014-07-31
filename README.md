@@ -1,5 +1,17 @@
 CakePHP JSON AND REST
 =====================
+Initial
+-------
+
+1. Setup mapResources
+
+```php
+//In app/Config/routes.php...
+
+Router::mapResources('states'); //table
+Router::parseExtensions('json'); //extention eg. json, xml
+```
+
 Database
 --------
 ```go
