@@ -1,9 +1,9 @@
 CakePHP JSON AND REST
 =====================
-Initial
--------
+Basic Setup
+-----------
 
-1. Setup mapResources
+1. Create mapResources
 
 ```php
 //In app/Config/routes.php...
@@ -11,6 +11,28 @@ Initial
 Router::mapResources('states'); //table
 Router::parseExtensions('json'); //extention eg. json, xml
 ```
+
+2. Create Statement StatesController.php
+
+```php
+// Controller/StatesController.php
+class StatesController extends AppController {
+
+    public $components = array('RequestHandler');
+
+    public function index() {
+        $states = $this->State->find('all');
+        $this->set(array(
+        'states' => $states,
+            '_serialize' => array('states')
+        ));
+    }
+```
+3. Create model State.php
+   Write like normally
+
+4. Test http://<server>/<project>/states.json
+
 
 Database
 --------
