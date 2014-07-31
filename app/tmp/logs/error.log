@@ -105,3 +105,12 @@ Request URL: /git/data-json/img/ajax/ajax-loader.gif
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/git/data-json/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-07-31 04:42:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /git/data-json/img/ajax/ajax-loader.gif
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/git/data-json/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
